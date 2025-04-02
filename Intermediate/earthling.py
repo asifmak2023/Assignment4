@@ -1,9 +1,5 @@
 def main():
-    try:
-        earthling = float(input("Enter mass of an object on Earth! : "))
-    except ValueError:
-        print("Invalid input! Please enter a numeric value for mass.")
-        return
+    earthling = int(input("Enter mass of an object on Earth! :"))
     
     planet = input("Enter the name of a planet (e.g., Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune): ")
     
@@ -26,4 +22,4 @@ def main():
         print("Invalid planet name. Please enter a valid planet.")
 
 if __name__ == '__main__':
-    main()
+    main() 
